@@ -3,7 +3,7 @@ package com.eminpolat.util.console.test;
 import com.eminpolat.util.console.Console;
 
 public class ReadDoubleTest {
-    public static void run()
+    private static void run()
     {
         double a = Console.readDouble("Birinci sayıyı giriniz:", "Hatalı sayı girdiniz!...");
         double b = Console.readDouble("İkinci sayıyı giriniz:", "Hatalı sayı girdiniz!...");
