@@ -13,7 +13,11 @@ package com.eminpolat.util.console;
 import java.util.Scanner;
 
 public final class Console {
-    private static final Scanner KB = new Scanner(System.in);
+    private static final Scanner KB;
+
+    static {
+        KB = new Scanner(System.in);
+    }
     private Console()
     {
     }
